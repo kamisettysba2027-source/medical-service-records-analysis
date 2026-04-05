@@ -1,0 +1,32 @@
+# Core
+pandas>=1.5
+numpy>=1.23
+openpyxl>=3.1
+scikit-learn>=1.2
+
+# NLP - cleaning
+pyspellchecker>=0.7
+spacy>=3.5
+
+# NLP - topic modelling
+gensim>=4.3
+bertopic>=0.15
+sentence-transformers>=2.2
+umap-learn>=0.5
+hdbscan>=0.8
+
+# Classification
+xgboost>=1.7
+lightgbm>=3.3
+imbalanced-learn>=0.10
+transformers>=4.30
+accelerate>=0.20
+torch>=2.0
+
+# Visualisation
+matplotlib>=3.7
+seaborn>=0.12
+wordcloud>=1.9
+
+# spaCy model (run separately):
+# python -m spacy download en_core_web_sm
